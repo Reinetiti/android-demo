@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btndelete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/design_default_color_secondary"
+    tools:context=".CalculatriceActivity">
+
+    <Button
+        android:id="@+id/btnAC"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:layout_marginEnd="848dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="AC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/btnpm"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="+/-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/btnpc"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="%"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="590dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="/"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="865dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="861dp" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="861dp" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="9"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="590dp"
+        tools:layout_editor_absoluteY="861dp" />
+
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="*"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="865dp"
+        tools:layout_editor_absoluteY="861dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="1059dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:text="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="1059dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="590dp"
+        tools:layout_editor_absoluteY="1059dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="1269dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        tools:layout_editor_absoluteY="1269dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="590dp"
+        tools:layout_editor_absoluteY="1269dp" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="865dp"
+        tools:layout_editor_absoluteY="1059dp" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="865dp"
+        tools:layout_editor_absoluteY="1269dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="517dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="1497dp" />
+
+    <Button
+        android:id="@+id/btncoma"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="590dp"
+        tools:layout_editor_absoluteY="1497dp" />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="="
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="865dp"
+        tools:layout_editor_absoluteY="1497dp" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="1047dp"
+        android:layout_height="484dp"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
